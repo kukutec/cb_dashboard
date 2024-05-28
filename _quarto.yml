@@ -2,17 +2,19 @@ project:
   type: website
 
 website:
-  title: "cb_dashboard"
-  navbar:
-    left:
+  title: "Codebreaker Dashboard"
+  sidebar:
+    contents:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: dashboard.qmd
+        text: Dashboard  
+      - href: about.qmd
+        text: About
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: [cosmo, custom.scss]
     toc: true
 
 

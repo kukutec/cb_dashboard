@@ -1,9 +1,9 @@
 ---
-dashboard:
-    title: "Codebreaker Dashboard"
+title: "Micro-ID Dashboard"
+format: 
+  dashboard: 
     logo: "images/logo.png"
     orientation: columns
-
 ---
 
 ## Column {with = "35%"}
@@ -13,7 +13,7 @@ Placeholder text for column 1
 ```{r, loadpackages}
 #| echo: false 
 #| inlclude: false
-library(tidiverse)
+library(tidyverse)
 
 ```
 
