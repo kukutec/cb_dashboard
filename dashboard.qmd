@@ -1,0 +1,41 @@
+---
+dashboard:
+    title: "Codebreaker Dashboard"
+    logo: "images/logo.png"
+    orientation: columns
+
+---
+
+## Column {with = "35%"}
+
+Placeholder text for column 1
+
+```{r, loadpackages}
+#| echo: false 
+#| inlclude: false
+library(tidiverse)
+
+```
+
+```{r, starwars}
+head(starwars)
+
+```
+
+
+## Column {with = "65%"}
+
+### Row {height = "10%"}
+
+Placeholder text for column 1,row 1
+
+### Row {height = "70%"}
+
+PLaceholder text for column 1\
+
+### Row {height = "20%"}
+
+```{r}
+
+```
+
