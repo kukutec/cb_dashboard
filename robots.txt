@@ -1,0 +1,1 @@
+Sitemap: https://kukutec.github.io/cb_dashboard/sitemap.xml
